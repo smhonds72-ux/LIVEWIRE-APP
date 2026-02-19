@@ -5,8 +5,7 @@
   "framework": "vite",
   "functions": {
     "api/proxy-download.js": {
-      "runtime": "nodejs18.x",
-      "maxDuration": 10
+      "runtime": "nodejs18.x"
     }
   },
   "headers": [
