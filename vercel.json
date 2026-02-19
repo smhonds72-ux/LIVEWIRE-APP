@@ -1,13 +1,10 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "installCommand": "npm install",
   "framework": "vite",
-  "functions": {
-    "api/proxy-download.js": {
-      "runtime": "nodejs18.x"
-    }
-  },
+  "functions": {},
   "headers": [
     {
       "source": "/api/(.*)",
@@ -31,6 +28,10 @@
     {
       "source": "/api/proxy-download/(.*)",
       "destination": "/api/proxy-download.js?seriesId=$1"
+    },
+    {
+      "source": "/((?!api/.*).*)",
+      "destination": "/"
     }
   ]
 }
