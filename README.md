@@ -1,3 +1,9 @@
+Using the App
+Please note:
+.All features are displayed when viewed on computer.
+.When viewed on mobile device,rotate device to landscape to view sidebars
+
+
 # LiveWire Coach Portal
 
 A comprehensive coach analytics dashboard for esports team management and performance analysis.
