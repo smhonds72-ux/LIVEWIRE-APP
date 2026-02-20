@@ -1,5 +1,5 @@
-Using the App
-Please note:
+#**Using the App**
+##Please note:
 .All features are displayed when viewed on computer.
 .When viewed on mobile device,rotate device to landscape to view sidebars
 
